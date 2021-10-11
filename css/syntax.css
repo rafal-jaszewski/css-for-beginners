@@ -38,6 +38,13 @@ h2{
 .deck{
     color: red;
 }
+/*Select a p tag just after h2 tag*/
 #all-articles h2 + p{
+    color: green;
+}
+div[id]{
+    background: grey;
+}
+a[href^=http]{
     color: green;
 }
