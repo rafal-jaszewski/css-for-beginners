@@ -1,16 +1,17 @@
-#header{
+/*#header{
     position: absolute;
     top: 0;
     left: 0;
-}
-
-#header h1{
-    font-size: 44px;
+}*/
+h1{
+    font-size: 30px;
 }
 /* Style all P tags*/
-p{
-    font-size: 18;
-    color: blue;
+p, span, a, li{
+    font-size: 14;
+    color:red;
+    font-weight: bold;
+    font-family: Arial;
 }
 /*Targeting elements*/
 a{
@@ -19,8 +20,24 @@ a{
 }
 span{
     text-transform: uppercase;
+    display: block;
+    color: royalblue;
 }
-div{
+/*div{
     width: 100%;
     background-color: grey;
+}*/
+h2{
+    font-size: 25px;
+}
+#content-header{
+    font-size: 20;
+    color: red;
+}
+
+.deck{
+    color: red;
+}
+#all-articles h2 + p{
+    color: green;
 }
