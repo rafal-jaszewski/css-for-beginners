@@ -48,3 +48,18 @@ div[id]{
 a[href^=http]{
     color: green;
 }
+a:hover{
+    color: red;
+}
+a:active{
+    color: orange;
+}
+a:visited{
+    color: purple;
+}
+article p:first-of-type{
+    font-weight: bold;
+}
+article p:last-of-type{
+    color: orange;
+}
