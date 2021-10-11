@@ -1,0 +1,26 @@
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header h1{
+    font-size: 44px;
+}
+/* Style all P tags*/
+p{
+    font-size: 18;
+    color: blue;
+}
+/*Targeting elements*/
+a{
+    text-decoration: underline;
+    color: red;
+}
+span{
+    text-transform: uppercase;
+}
+div{
+    width: 100%;
+    background-color: grey;
+}
