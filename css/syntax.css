@@ -63,3 +63,12 @@ article p:first-of-type{
 article p:last-of-type{
     color: orange;
 }
+#header h1{
+    color: orangered;
+}
+#header h2{
+    color: #797634;
+}
+#header{
+    background: royalblue;
+}
