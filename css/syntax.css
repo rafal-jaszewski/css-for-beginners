@@ -82,3 +82,17 @@ a:hover{
     text-decoration: underline;
     background: darkkhaki;
 }
+p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 12px;
+    margin-top: 32px;
+}
+.box{
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #008;
+    width: 400px;
+    height: 200px;
+}
